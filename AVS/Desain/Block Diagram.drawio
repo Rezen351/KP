@@ -390,7 +390,7 @@
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-183" value="Self Diagnostic System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="570" y="630" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-184" value="Digital" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-184" value="Digital Sensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="660" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-104" target="dQ-UanCfNuNo6SUK2G3S-189">
@@ -437,7 +437,7 @@
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-209" target="dQ-UanCfNuNo6SUK2G3S-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-209" value="Sensing Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-209" value="Diagnostic Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="1374" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-212" target="dQ-UanCfNuNo6SUK2G3S-209">
