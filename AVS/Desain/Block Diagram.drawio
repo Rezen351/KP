@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="320" width="500" height="240" as="geometry" />
+          <mxGeometry x="230" y="320" width="500" height="350" as="geometry" />
         </mxCell>
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-1" target="dQ-UanCfNuNo6SUK2G3S-2">
           <mxGeometry relative="1" as="geometry" />
@@ -38,16 +38,30 @@
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-4" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-11" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-11" target="dQ-UanCfNuNo6SUK2G3S-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-11" value="Input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="70" y="290" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-12" value="Telemetry data from Software&lt;div&gt;Sealt Belt (Switch On/Off)&lt;/div&gt;&lt;div&gt;Occupation (Switch On/Off)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-12" value="Telemetry Data&lt;div&gt;&lt;div&gt;Sealt Belt (Switch On/Off)&lt;/div&gt;&lt;div&gt;Occupation (Switch On/Off)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="320" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-16" value="CAN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="430" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-17" value="System Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-17" target="dQ-UanCfNuNo6SUK2G3S-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-17" target="dQ-UanCfNuNo6SUK2G3S-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="305" />
+              <mxPoint x="750" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-17" value="System Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="230" y="290" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-19" value="Security System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -65,17 +79,43 @@
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-25" value="24V DC main&lt;div&gt;5V DC&lt;/div&gt;&lt;div&gt;3.3V DC&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="380" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-26" value="Motor Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-26" value="Mosfet IRF540" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="380" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-28" value="Buck Converter&lt;div&gt;MP2338&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-28" value="Buck Converter&lt;div&gt;MP2307&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="470" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dQ-UanCfNuNo6SUK2G3S-29" value="Fuse PTC Diode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-29" value="Fuse PTC Diode&amp;nbsp;LM35 IC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dQ-UanCfNuNo6SUK2G3S-30" value="Digital Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="450" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-31" value="Debug Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-32" value="Mini OLED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-33" value="Output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="770" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-34" value="Motor DC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="320" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-35" value="Brushed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="430" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dQ-UanCfNuNo6SUK2G3S-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-37" value="Feedback" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-UanCfNuNo6SUK2G3S-38" value="Sensor Rotary Encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
