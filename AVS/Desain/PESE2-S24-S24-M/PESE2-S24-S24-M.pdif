@@ -1,0 +1,186 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "PESE2S24S24M"
+      (family "ANA")
+      (package "CONV_PESE2S24S24M")
+      (description "2_W,_1:1_Input_Range,_Single_Unregulated_Output,_SMT,_3000_Vdc_Isolation,_Dc-Dc_Converter")
+      (attribute "PKG_TYPE" "CONV_PESE2S24S24M")
+      (attribute "MF" "CUI_Inc.")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "7.5mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/PESE2-S24-S24-M-TR/CUI/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "1.0")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/PESE2-S24-S24-M-TR/CUI/view-part/?ref=snap")
+      (attribute "MP" "PESE2-S24-S24-M-TR")
+      (attribute "CUI_PURCHASE_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pese2-m-series?utm_source=snapeda.com&utm_medi")
+      (attribute "AVAILABILITY" "Not_in_stock")
+      (attribute "MANUFACTURER" "CUI_Devices")
+      (gate
+        (swap 1)
+        (symbol "PESE2S24S24M")
+        (pin "+VO" 5 (type OP))
+        (pin "0V" 4 (type OP))
+        (pin "GND" 1 (type PP))
+        (pin "VIN" 2 (type IP))
+      )
+    )
+    (symbol "PESE2S24S24M"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -400 200) (pt 400 200) (pt 400 -200) (pt -400 -200) (pt -400 200) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -600.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -600.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "CONV_PESE2S24S24M"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 259.84) (pt -167.32 182.28))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 -259.84) (pt -167.32 -182.28))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 167.32 117.72) (pt 167.32 -117.72))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 167.32 259.84) (pt 167.32 182.28))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 167.32 -259.84) (pt 167.32 -182.28))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 259.84) (pt 167.32 259.84))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 -259.84) (pt 167.32 -259.84))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -268.46 180) (pt -260.59 180))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 259.84) (pt -167.32 -259.84))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 167.32 259.84) (pt 167.32 -259.84))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 259.84) (pt 167.32 259.84))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -167.32 -259.84) (pt 167.32 -259.84))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -268.46 180) (pt -260.59 180))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -250.0 269.69) (pt -250.0 -269.69))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -250.0 -269.69) (pt 250.0 -269.69))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 250.0 -269.69) (pt 250.0 269.69))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 250.0 269.69) (pt -250.0 269.69))
+        )
+      )
+      (leg 1 (pt -198.82 150) (padstack 1))
+      (leg 2 (pt -198.82 50) (padstack 2))
+      (leg 4 (pt -198.82 -150) (padstack 3))
+      (leg 5 (pt 198.82 -150) (padstack 4))
+      (leg 8 (pt 198.82 150) (padstack 5))
+      (padstack 1
+        (pad (layer TCOP) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 39.37 82.68 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 39.37 82.68 0 0.0 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 39.37 82.68 0 0.0 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 39.37 82.68 0 0.0 0))
+      )
+      (padstack 5
+        (pad (layer TCOP) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 39.37 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 39.37 82.68 0 0.0 0))
+      )
+      (model P
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

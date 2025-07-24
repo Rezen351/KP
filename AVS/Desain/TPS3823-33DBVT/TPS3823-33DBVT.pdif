@@ -1,0 +1,171 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "TPS382333DBVT"
+      (family "ANA")
+      (package "SOT95P280X1455N")
+      (description "Active-low,_push-pull,_voltage_supervisor_(reset_IC)_with_1.6-s_watchdog_&_manual_reset")
+      (attribute "PKG_TYPE" "SOT95P280X1455N")
+      (attribute "MF" "Texas_Instruments")
+      (attribute "PACKAGE" "SOT-23-5_Texas_Instruments")
+      (attribute "PRICE" "None")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/TPS3823-33DBVT/Texas+Instruments/view-part/?ref=snap")
+      (attribute "MP" "TPS3823-33DBVT")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/TPS3823-33DBVT/Texas+Instruments/view-part/?ref=eda")
+      (gate
+        (swap 1)
+        (symbol "TPS382333DBVT")
+        (pin "!MR" 3 (type IP))
+        (pin "!RESET" 1 (type OP))
+        (pin "GND" 2 (type PP))
+        (pin "VDD" 5 (type PP))
+        (pin "WDI" 4 (type IP))
+      )
+    )
+    (symbol "TPS382333DBVT"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -500 400) (pt 500 400) (pt 500 -400) (pt -500 -400) (pt -500 400) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "SOT95P280X1455N"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt -98.82 41.34) (pt -90.94 41.34))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -12.99 57.09) (pt 12.99 57.09))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 31.5 13.19) (pt 31.5 -13.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 12.99 -57.09) (pt -12.99 -57.09))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 7.87)
+          (circle (pt -98.82 41.34) (pt -90.94 41.34))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -31.5 -57.09) (pt -31.5 57.09))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 31.5 57.09) (pt 31.5 -57.09))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -31.5 57.09) (pt 31.5 57.09))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 31.5 -57.09) (pt -31.5 -57.09))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -83.07 66.93) (pt 83.07 66.93))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 83.07 66.93) (pt 83.07 -66.93))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 83.07 -66.93) (pt -83.07 -66.93))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -83.07 -66.93) (pt -83.07 66.93))
+        )
+      )
+      (leg 1 (pt -49.41 37.4) (padstack 1))
+      (leg 2 (pt -49.41 0) (padstack 2))
+      (leg 3 (pt -49.41 -37.4) (padstack 3))
+      (leg 4 (pt 49.41 -37.4) (padstack 4))
+      (leg 5 (pt 49.41 37.4) (padstack 5))
+      (padstack 1
+        (pad (layer TCOP) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TRES) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TPST) (rectf 23.23 47.64 0 5.81 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TRES) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TPST) (rectf 23.23 47.64 0 5.81 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TRES) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TPST) (rectf 23.23 47.64 0 5.81 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TRES) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TPST) (rectf 23.23 47.64 0 5.81 0))
+      )
+      (padstack 5
+        (pad (layer TCOP) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TRES) (rectf 23.23 47.64 0 5.81 0))
+        (pad (layer TPST) (rectf 23.23 47.64 0 5.81 0))
+      )
+      (model TPS3823-33DBVT.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
