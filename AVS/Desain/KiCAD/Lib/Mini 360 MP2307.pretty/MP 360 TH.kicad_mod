@@ -1,0 +1,184 @@
+(footprint "MP 360 TH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.25 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef7900ec-75cd-4cd0-80f0-335519cc7c25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MP 360 TH"
+		(at -0.25 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1dd54670-94ad-4804-8501-5ee0d5ab75a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a33e953d-65e3-44f1-a095-4a6612060bf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b59fe1a1-34a4-47eb-a6a2-98c907d3ddfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9 -5)
+		(end 8.5 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "9c15651b-17c0-4d5f-af10-732d0b2480a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c9937d0-c079-4d24-b726-36db073d03e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 1.5 -3.5 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "04638684-f7b1-4e9e-8d27-d28078b2d575")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN+"
+		(at -5.5 -3.5 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "07780b7c-7095-4519-8603-84c5b3deb8b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 1.5 6 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "4ab350c7-bd3f-4940-9877-0e1a0e64c17b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN-"
+		(at -5.5 6 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "aee80485-c5fb-4f2b-a715-66c27f740fd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -7.5 -4)
+		(size 1.905 1.27)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "44f01ff5-0c2b-4e5e-8c8a-91044766cf7f")
+	)
+	(pad "2" thru_hole roundrect
+		(at -7.5 5.5)
+		(size 1.905 1.27)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "9f0dfda6-4238-4935-ad35-476d4172b67f")
+	)
+	(pad "3" thru_hole roundrect
+		(at 7 -4)
+		(size 1.905 1.27)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "33f0e5ee-2e99-4c8e-a1f2-a517e1f6aeaf")
+	)
+	(pad "4" thru_hole roundrect
+		(at 7 5.5)
+		(size 1.905 1.27)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "e8b33a63-5f47-4d41-abb3-60f1932d3426")
+	)
+	(embedded_fonts no)
+	(model "/home/almuzky/KP/AVS/Desain/KiCAD/Lib/MIni - 360.step"
+		(offset
+			(xyz -0.5 -1.5 -16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
